@@ -40,31 +40,31 @@ export const VENTURES: Venture[] = [
     name: "WeShyft",
     tagline: "KI-gestütztes ESG- & Klimamanagement",
     description:
-      "WeShyft verbindet KI-Technologie mit Expertenberatung: Von ESG-Reporting nach ESRS, GRI und DNK über Klimabilanzierung (Scope 1–3) bis zur doppelten Wesentlichkeitsanalyse. Human-led, tech-powered. 70% schneller als herkömmliche Prozesse.",
+      "WeShyft verbindet KI-Technologie mit Expertenberatung: Von ESG-Reporting nach ESRS, GRI und DNK über Klimabilanzierung (Scope 1–3) bis zur doppelten Wesentlichkeitsanalyse. Human-led, tech-powered. 430.000 € Funding eingesammelt, ein Team von bis zu 18 Personen aufgebaut und über 40 Kunden gewonnen.",
     tags: ["KI", "ESG", "Klimabilanzierung", "SaaS", "Beratung"],
     href: "https://weshyft.com",
     status: "aktiv",
     statusLabel: "Aktiv",
   },
   {
-    name: "True Fabrics",
-    tagline: "Aid & Trade: Textilien mit Wirkung",
-    description:
-      "True Fabrics schuf einen europäischen Absatzmarkt für fair gehandelte Textilien aus Entwicklungsländern. Das Aid & Trade Prinzip verband wirtschaftliche Prosperität durch fairen Handel mit direkter Wirkung: 10% der Umsätze wurden gespendet. 2020 erfolgreich verkauft.",
-    tags: ["E-Commerce", "Textilien", "Aid & Trade", "Impact"],
-    href: "https://truefabrics.de",
-    status: "exit",
-    statusLabel: "Exit 2020",
-  },
-  {
     name: "nRole",
     tagline: "Nachhaltigkeitsbildung für Organisationen",
     description:
-      "nRole war eine Lernplattform, die Unternehmen dabei half, Nachhaltigkeitskompetenz organisationsweit aufzubauen: praxisnah, skalierbar und messbar. Von der Führungsebene bis zur Fachkraft.",
+      "nRole war eine Lernplattform für Nachhaltigkeitskompetenz in Organisationen: mit standardisiertem Plattformprodukt und maßgeschneiderten Lösungen für Unternehmen. Zu den Kunden zählte unter anderem Facebook, für das wir Europas größte Lernvideo-Reihe für nachhaltiges Wirtschaften mit Millionen Klicks entwickelten. Fast 200.000 € Umsatz im ersten Jahr. 2022 strategisch beendet, um WeShyft vollständig aufzubauen.",
     tags: ["EdTech", "Nachhaltigkeit", "Learning", "B2B"],
     href: "",
     status: "eingestellt",
     statusLabel: "Eingestellt",
+  },
+  {
+    name: "True Fabrics",
+    tagline: "Aid & Trade: Textilien mit Wirkung",
+    description:
+      "Mit 1.000 € Startkapital aufgebaut: True Fabrics schuf einen europäischen Absatzmarkt für fair gehandelte Textilien aus Entwicklungsländern. Das Aid & Trade Prinzip verband wirtschaftliche Prosperität durch fairen Handel mit direkter Wirkung: 10% der Umsätze wurden gespendet. 2020 erfolgreich verkauft.",
+    tags: ["E-Commerce", "Textilien", "Aid & Trade", "Impact"],
+    href: "https://truefabrics.de",
+    status: "exit",
+    statusLabel: "Exit 2020",
   },
 ];
 
