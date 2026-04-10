@@ -40,7 +40,7 @@ export default function DatenschutzPage() {
               Gänsemarkt 33<br />
               20354 Hamburg<br />
               Telefon: +49 178 65 78 624<br />
-              E-Mail: colin_bien(at)web.de
+              E-Mail: info(at)colinbien.de
             </p>
             <p className="mt-2">
               Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder
@@ -116,7 +116,7 @@ export default function DatenschutzPage() {
             </p>
             <p className="mt-2">
               Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an
-              uns wenden: colin_bien(at)web.de
+              uns wenden: info(at)colinbien.de
             </p>
           </section>
 
