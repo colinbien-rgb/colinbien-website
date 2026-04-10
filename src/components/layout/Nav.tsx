@@ -150,7 +150,7 @@ export function Nav() {
             </div>
             <div className="px-8 pb-12 border-t border-[var(--color-border)] pt-8">
               <p className="font-mono text-xs text-[var(--color-muted)] uppercase tracking-widest">
-                colin@colinbien.de
+                info@colinbien.de
               </p>
             </div>
           </motion.div>

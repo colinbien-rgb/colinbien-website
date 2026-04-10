@@ -31,7 +31,7 @@ export default function ImpressumPage() {
             </h2>
             <p>
               Telefon: +49 178 65 78 624<br />
-              E-Mail: colin_bien(at)web.de
+              E-Mail: info(at)colinbien.de
             </p>
           </section>
 
