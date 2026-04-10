@@ -4,21 +4,21 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 const learnings = [
   {
     number: "01",
-    title: "Purpose allein reicht nicht.",
+    title: "Impact",
     description:
-      "Ein nachhaltiges Produkt zu haben ist kein Geschäftsmodell. Die härteste Lektion: Wirkung und Wirtschaftlichkeit müssen von Anfang an zusammen gedacht werden, nicht nacheinander.",
+      "Bei allen meinen Gründungen ging es darum, ökologische oder soziale Probleme durch unternehmerisches Handeln zu lösen. Nicht Gewinn als Zweck, sondern als Mittel zur Wirkung.",
   },
   {
     number: "02",
-    title: "Exit ist kein Scheitern.",
+    title: "Wissenschaft",
     description:
-      "True Fabrics zu verkaufen war die richtige Entscheidung. Ein Unternehmen in gute Hände zu geben, das es weitertragen kann, ist manchmal mehr Verantwortung als es festzuhalten.",
+      "Wissenschaftliche Erkenntnisse sind kein Selbstzweck. Ich glaube daran, dass sie in den gesellschaftlichen Diskurs gehören und durch unternehmerisches Handeln in die Praxis übersetzt werden müssen.",
   },
   {
     number: "03",
-    title: "Technologie ist ein Mittel, kein Ziel.",
+    title: "Netzwerk",
     description:
-      "KI, SaaS, Plattform: alle Begriffe, die schnell zum Selbstzweck werden. Was zählt, ist ob das Problem gelöst wird. Bei WeShyft fragen wir uns das täglich neu.",
+      "Die größten Herausforderungen unserer Zeit lassen sich nicht alleine lösen. Gemeinschaften, die über Disziplinen und Interessen hinweg zusammendenken, sind stärker als jeder Einzelne.",
   },
 ];
 
@@ -27,7 +27,7 @@ export function Lernmomente() {
     <section className="py-24 lg:py-32 bg-[var(--color-canvas-subtle)] border-t border-[var(--color-border)]">
       <div className="max-w-7xl mx-auto px-6">
         <ScrollReveal className="mb-16">
-          <SectionLabel label="Was ich gelernt habe" />
+          <SectionLabel label="Wofür ich stehe" />
         </ScrollReveal>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[var(--color-border)] border border-[var(--color-border)]">
