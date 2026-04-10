@@ -1,5 +1,17 @@
 "use server";
 
+import nodemailer from "nodemailer";
+
+const transporter = nodemailer.createTransport({
+  host: "smtp.hostinger.com",
+  port: 465,
+  secure: true,
+  auth: {
+    user: "info@colinbien.de",
+    pass: process.env.SMTP_PASSWORD,
+  },
+});
+
 export interface ContactFormState {
   status: "idle" | "success" | "error";
   message?: string;
@@ -44,12 +56,22 @@ export async function submitContactForm(
     return { status: "error", errors };
   }
 
-  // TODO: integrate with email service (e.g. Resend, Nodemailer)
-  // For now, log to console (replace with actual sending logic)
-  console.log("Contact form submission:", { name, email, subject, message });
-
-  // Simulate a small delay
-  await new Promise((r) => setTimeout(r, 500));
+  try {
+    await transporter.sendMail({
+      from: '"colinbien.de" <info@colinbien.de>',
+      to: "info@colinbien.de",
+      replyTo: email,
+      subject: `Kontaktformular: ${subject}`,
+      text: `Name: ${name}\nE-Mail: ${email}\n\n${message}`,
+      html: `<p><strong>Name:</strong> ${name}</p><p><strong>E-Mail:</strong> ${email}</p><p><strong>Nachricht:</strong><br>${message.replace(/\n/g, "<br>")}</p>`,
+    });
+  } catch (err) {
+    console.error("E-Mail konnte nicht gesendet werden:", err);
+    return {
+      status: "error",
+      message: "Etwas ist schiefgelaufen. Bitte versuche es erneut oder schreib direkt an info@colinbien.de.",
+    };
+  }
 
   return {
     status: "success",
