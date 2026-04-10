@@ -111,7 +111,7 @@ export const SOCIAL_LINKS = {
   linkedin: "https://linkedin.com/in/colinbien",
   spotify: "https://open.spotify.com/show/0FPQGoK0wgnTu8VPwDu4oG?si=858ada6358ae4e58",
   youtube: "https://www.youtube.com/@colinbien6520",
-  email: "colin_bien@web.de",
+  email: "info@colinbien.de",
 };
 
 export const SITE_URL = "https://www.colinbien.de";
